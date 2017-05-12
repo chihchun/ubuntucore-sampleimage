@@ -13,15 +13,16 @@ The proejct use [snapcraft-docker](https://github.com/chihchun/snapcraft-docker)
 
 ## Create the image, and run by qemu
     # Clone this project
-    $ git clone ..
-    $ cp ../sample-kernels/samplekernel_*_amd64.snap  .
+    $ git clone https://github.com/chihchun/ubuntucore-sampleimage.git
+    $ cp ./sample-kernels/samplekernel_*_amd64.snap  ./buntucore-sampleimage
+    $ cd buntucore-sampleimage
     $ make image
     $ make run
-    # register the qemu device from the console-conf
-    # ssh into the virtual machine
+    # launch kvm, please follow the instruction to register the device
+    # after the device is registerd, you can ssh into the virtual machine with your ssh key.
     $ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -v ${USER}@localhost -p 10022
     
-# Requirements
+# System requirements
 
     apt-get install qemu-kvm git make openssh-client docker.io
 
