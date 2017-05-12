@@ -1,0 +1,12 @@
+{
+  "type": "model",
+  "authority-id": "jhL4LAhRDtcbAJtl3gRg8nBBjvn7VzYv",
+  "brand-id": "jhL4LAhRDtcbAJtl3gRg8nBBjvn7VzYv",
+  "series": "16",
+  "model": "pc-amd64",
+  "architecture": "amd64",
+  "gadget": "pc",
+  "kernel": "samplekernel",
+  "timestamp": "2017-05-12T10:00:00+08:00"
+}
+
